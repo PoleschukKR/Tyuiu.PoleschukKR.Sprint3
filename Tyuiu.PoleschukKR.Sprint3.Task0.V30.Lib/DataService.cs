@@ -10,12 +10,12 @@ namespace Tyuiu.PoleschukKR.Sprint3.Task0.V30.Lib
 {
     public class DataService : ISprint3Task0V30
     {
-        public double GetSumSeries(double value, int startValue, int stopValue)
+        public double GetMultiplySeries(int startValue, int stopValue)
         {
             double res = 1;
             for (int i = startValue; i <= stopValue; i++)
             {
-                res *= i / Math.Pow (Math.Sin (1), -10); 
+                res *= i / Math.Pow(Math.Sin(1), -10);
             }
 
             return Math.Round(res, 3);

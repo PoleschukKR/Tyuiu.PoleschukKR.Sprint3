@@ -44,7 +44,7 @@ namespace Tyuiu.PoleschukKR.Sprint3.Task0.V30
             Console.WriteLine("***************************************************************************");
 
             
-            Console.WriteLine("Произведение ряда = " + ds.GetSumSeries(value,startValue,stopValue));
+            Console.WriteLine("Произведение ряда = " + ds.GetMultiplySeries(startValue,stopValue));
 
             Console.ReadKey();
         }

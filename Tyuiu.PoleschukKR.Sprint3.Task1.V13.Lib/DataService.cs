@@ -12,14 +12,13 @@ namespace Tyuiu.PoleschukKR.Sprint3.Task1.V13.Lib
     {
         public double GetMultiplySeries(double value, int startValue, int stopValue)
         {
-            
             double res = 1;
             while (startValue <= stopValue)
             {
-                 res *=  Math.Pow(value, startValue);
-                 startValue++;
+                res *= Math.Pow(value, startValue);
+                startValue++;
             }
-            return Math.Round(res, 3);
+            return Math.Round(res, 3); throw new NotImplementedException();
         }
     }
 }
